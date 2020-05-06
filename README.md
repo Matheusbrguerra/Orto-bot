@@ -3,5 +3,4 @@ Bot para a primeira parte do trabalho final do professor Flávio Calado
 
 Passo 1 : Instale o Natural Language Toolkit
 
-ˋˋˋ
-pip install nltk
+ˋˋˋpip install nltk
