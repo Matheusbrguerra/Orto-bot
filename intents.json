@@ -1,0 +1,209 @@
+{
+  "intents": [
+    {
+      "tag": "boas-vindas",
+      "patterns": [
+        "Boa tarde",
+        "Oi",
+        "Como você está",
+        "Tem alguém ai?",
+        "Olá",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite",
+        "Tudo bem?"
+      ],
+      "responses": [
+        "Olá!  ! Prazer em atende-lo",
+        "Atendimento Ortobot como posso ser util",
+        "Olá! Como posso te ajudar?",
+        "Olá, !"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nome",
+      "patterns": [
+        "Qual seu nome ?",
+        "Poderia me informar seu nome?",
+        "Com quem eu falo ?",
+        "Opa",
+        "Falo com dentista",
+        "Estou precisando de um dentista",
+        "Preciso urgentemente de um dentista",
+        "Opa tudo bem ?",
+        "Preciso de um dentista"
+      ],
+      "responses": [
+        "Sou o Bot Ortobot , prazer em te conhecer",
+        "Olá !Me chamo Bot Ortobot!",
+        "Pode me chamar de Bot ortoclean",
+        "Chat Bot ortoclean"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "orcamento",
+      "patterns": [
+        "Gostaria de fazer orçamento ?",
+        "Qual valor da mensalidade ?",
+        "Quando custa a mensalidade ?",
+        "Quantos pago por mes?",
+        "Qual valor da mensal?",
+        "Gostaria de saber valores",
+        "Quantos é a mensalidades?",
+        "Voces tem alguma oferta?",
+        "Quantos pago por mês?",
+        "Gostaria de saber sobre valores?"
+      ],
+      "responses": [
+        "Manunteção aparelho R$ 100 reais , limpeza R$ 70,00, obturação R$ 162 ",
+        " R$ 100 manuntenção",
+        "R$70 limpeza ,R$ 162 obturação, venha conhecer nossas instalações e planos especiais ",
+        " Volte a sorrir! Manunteção  R$ 100, obturação R$ 162, limpeza apenas 70 reais. "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pacotes-especiais",
+      "patterns": [
+        "Voces possuem desconto?",
+        "A empresa tem pacote anual ?",
+        "consigo pagar adiandado ?",
+        "Vi um anuncio no seu site qual desconto ganho caso queira contratar plano mensal",
+        "Tem alguma forma de conseguir desconto",
+        "Quero contratar pacote anual, qual desconto ganho",
+        "desejo contratar plano anual",
+        "Esse desconto do pacote especial como funciona",
+        "Quero contratar pacote anual, quando pago",
+        "Como funciona desconto do pacote anual?"
+      ],
+      "responses": [
+        "Temos pacotes anuais com 20 porcento de desconto",
+        "Caso deseja pagar anual recebera 20 porcento da mensalidade",
+        "Voce pode ganhar 20 porcento de desconto!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fidelidade",
+      "patterns": [
+        "Seus planos tem fidelidades?",
+        "Qual valor da multa caso realize cancelamento?",
+        "Pago multa caso queira cancelar?",
+        "Quantos pago de multa?",
+        "Quanto tempo fica vigente contrato?",
+        "Qual valor da multa?",
+        "Preciso ficar quando tempo com plano?",
+        "Como funciona o pacote anual?",
+        "Caso queira desiste de planos fidelizados quantos pago?",
+        "Não aceito pagar multa é possível negociar?"
+      ],
+      "responses": [
+        "Caso ative planos especiais e cancele pagará valor restante de valor restante mais multa de 40 porcento",
+        "Além das parcelas pagará 40 porcento do valor retantante"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "raio-x",
+      "patterns": [
+        "Vocês fazem radiografia dentaria ?",
+        "Voces tem convenio com empresa de radiografia",
+        "Tenho desconto no raio x",
+        "Quero colocar aparelho, qual primeiro passo?",
+        "Com quem falo para tirar radiografia dentaria?",
+        "Como saber se meus dentes estão alinhados",
+        "Preciso de indicação de clinicas de radiologia"
+      ],
+      "responses": [
+        "Temos convenio com 3 empresas, endereço disponível em nosso site",
+        "Podemos indicar uma empresa sim!",
+        "Orçamento é diretamente com destista, para agendar horário basta ligar em canal 3 3 2 2  8 7 7 5"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aparelho",
+      "patterns": [
+        "Quantos custa aparelho?",
+        "Preciso pagar quantos meses?",
+        "Quando custa a mensalidade?",
+        "Quantos pago para dar manunteção em aparelho?",
+        "Quanto tempo tenho que ficar com aparelho?",
+        "Meus dentes estão tortos, como faço para colocar aparelho?"
+      ],
+      "responses": [
+        "Volte a sorrir com segurança! manuntenção em aparelhos apenas R$100, vem marca uma avaliação.",
+        "Gostaria de marcar uma avaliação? Aparelhos no valor apenas de R$ 100,00",
+        "Manuntenção  com menor preço é aqui, pague apenas R$ 100,00"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "endereco",
+      "patterns": [
+        "Qual seu endereço ?",
+        "Poderia me informar seu endereço? ",
+        "Onde voces estão localizados?",
+        "Ficam longe do centro?",
+        "Onde estão?",
+        "Onde fica localizada a enpresa?",
+        "Preciso de seu endereço",
+        "Como faço para localiza-los?",
+        "Me passa seu endereço",
+        "Em qual região se encontram",
+        "Endereço por favor"
+      ],
+      "responses": [
+        "O nosso endereço é Rua Correia de Lemos 780. Belo Horizonte MG ",
+        "Estamos localizados na Rua Correia de Lemos 780. Belo Horizonte MG",
+        "Estamos poucos no centro de BH, Rua Correia de Lemos 780. Belo Horizonte MG"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "horario_de_funcionamento",
+      "patterns": [
+        "Qual o horario de fechamento?",
+        "Abre que horas?",
+        "horário de funcionamento?",
+        "Qual horarios voces funcionam?",
+        "Estão abertos?",
+        "Precido agendar uma consulta",
+        "Que horas o dentista atende?",
+        "Qual horario de funcionamento?",
+        "Consigo agendamento final de semana?",
+        "Tem dentista final de semana?",
+        "Qual horários voces funcionam?"
+      ],
+      "responses": [
+        "Nos estamos abertos das 8h as 18hs de segunda a sexta-feira",
+        "De segunda a sexta de 08 as 18hs estamos te esperando"
+      ],
+      "context_set": " "
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": [
+        "Obrigado pela atenção! tchau",
+        "Ate mais!",
+        "Obrigado!",
+        "Ok",
+        "Tchau, obrigado pela pre-consulta",
+        "Execelente dia",
+        "Tchau tchau",
+        "Adeus",
+        "Agradecido",
+        "Ate logo !"
+      ],
+      "responses": [
+        "Ate mais!",
+        "Foi um prazer atende-lo!",
+        "Tchau!",
+        "Estamos a disposição sempre que precisar "
+      ],
+      "context_set": ""
+    }
+  ]
+}
