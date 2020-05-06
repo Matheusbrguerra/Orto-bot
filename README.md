@@ -13,3 +13,7 @@ Passo 3 : Instale o TensorFlow
 ```
 pip install tensorflow
 ```
+Dentro da pasta execute o terminal e execute o comando
+```
+py chatbot.py
+```
