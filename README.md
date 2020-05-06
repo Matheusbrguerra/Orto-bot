@@ -5,4 +5,3 @@ Passo 1 : Instale o Natural Language Toolkit
 
 ˋˋˋ
 pip install nltk
- ˋˋˋ
