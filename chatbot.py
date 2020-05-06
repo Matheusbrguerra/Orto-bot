@@ -14,7 +14,7 @@ from googletrans import Translator
 
 
 nltk.download('rslp')
-with open("intents.json") as file:
+with open("intents.json", encoding='utf-8') as file:
     data = js.load(file)
 
 palavras = []

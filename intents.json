@@ -3,7 +3,7 @@
     {
       "tag": "boas-vindas",
       "patterns": [
-        "Boa tarde",
+        "Boa tarde !",
         "Oi",
         "Como você está",
         "Tem alguém ai?",
@@ -14,17 +14,17 @@
         "Tudo bem?"
       ],
       "responses": [
-        "Olá!  ! Prazer em atende-lo",
-        "Atendimento Ortobot como posso ser util",
-        "Olá! Como posso te ajudar?",
-        "Olá, !"
+        "Olá ! Prazer em atendê-lo, como posso te ajudar !?",
+        "Atendimento Ortobot, como posso ser útil ?",
+        "Olá ! Como posso te ajudar?",
+        "Olá ! Do que você necessita ?"
       ],
       "context_set": ""
     },
     {
       "tag": "nome",
       "patterns": [
-        "Qual seu nome ?",
+        "Qual é o seu nome ?",
         "Poderia me informar seu nome?",
         "Com quem eu falo ?",
         "Opa",
@@ -35,32 +35,32 @@
         "Preciso de um dentista"
       ],
       "responses": [
-        "Sou o Bot Ortobot , prazer em te conhecer",
-        "Olá !Me chamo Bot Ortobot!",
-        "Pode me chamar de Bot ortoclean",
-        "Chat Bot ortoclean"
+        "Sou o Bot Ortobot , muito prazer em te conhecer",
+        "Olá ! Me chamo Bot Ortobot!",
+        "Pode me chamar de Bot Ortoclean",
+        "Chat Bot ortoclean, ou o Ortobot para os mais chegados !!"
       ],
       "context_set": ""
     },
     {
       "tag": "orcamento",
       "patterns": [
-        "Gostaria de fazer orçamento ?",
+        "Gostaria de fazer orçamento",
         "Qual valor da mensalidade ?",
         "Quando custa a mensalidade ?",
-        "Quantos pago por mes?",
-        "Qual valor da mensal?",
-        "Gostaria de saber valores",
-        "Quantos é a mensalidades?",
+        "Quantos reais eu iria pagar por mes?",
+        "Qual valor mensal?",
+        "Gostaria de saber os valores",
+        "Quantos reais é mensalidade?",
         "Voces tem alguma oferta?",
-        "Quantos pago por mês?",
+        "Qual é o valor pago por mês?",
         "Gostaria de saber sobre valores?"
       ],
       "responses": [
-        "Manunteção aparelho R$ 100 reais , limpeza R$ 70,00, obturação R$ 162 ",
-        " R$ 100 manuntenção",
+        "Manunteção aparelho R$ 100 , limpeza R$ 70, obturação R$ 162 ",
+        "R$ 100 manutenção, R$ 70 limpeza, R$ 162 obturação",
         "R$70 limpeza ,R$ 162 obturação, venha conhecer nossas instalações e planos especiais ",
-        " Volte a sorrir! Manunteção  R$ 100, obturação R$ 162, limpeza apenas 70 reais. "
+        "Volte a sorrir! Manunteção  R$ 100, obturação R$ 162, limpeza apenas 70 reais. "
       ],
       "context_set": ""
     },
@@ -79,19 +79,19 @@
         "Como funciona desconto do pacote anual?"
       ],
       "responses": [
-        "Temos pacotes anuais com 20 porcento de desconto",
-        "Caso deseja pagar anual recebera 20 porcento da mensalidade",
-        "Voce pode ganhar 20 porcento de desconto!"
+        "Temos pacotes anuais com 20 % de desconto",
+        "Caso deseja pagar anual recebera 20 % da mensalidade",
+        "Voce pode ganhar 20 % de desconto!"
       ],
       "context_set": ""
     },
     {
       "tag": "fidelidade",
       "patterns": [
-        "Seus planos tem fidelidades?",
+        "Seus planos tem fidelidade?",
         "Qual valor da multa caso realize cancelamento?",
         "Pago multa caso queira cancelar?",
-        "Quantos pago de multa?",
+        "Quantos eu pagaria de multa?",
         "Quanto tempo fica vigente contrato?",
         "Qual valor da multa?",
         "Preciso ficar quando tempo com plano?",
@@ -100,8 +100,8 @@
         "Não aceito pagar multa é possível negociar?"
       ],
       "responses": [
-        "Caso ative planos especiais e cancele pagará valor restante de valor restante mais multa de 40 porcento",
-        "Além das parcelas pagará 40 porcento do valor retantante"
+        "Caso ative planos especiais e cancele, pagará valor restante mais multa de 40 %",
+        "Além das parcelas restantes pagará 40 % do valor retantante"
       ],
       "context_set": ""
     },
@@ -163,7 +163,7 @@
       "context_set": ""
     },
     {
-      "tag": "horario_de_funcionamento",
+      "tag": "horario-de-funcionamento",
       "patterns": [
         "Qual o horario de fechamento?",
         "Abre que horas?",
@@ -187,19 +187,19 @@
       "tag": "agradecimento",
       "patterns": [
         "Obrigado pela atenção! tchau",
-        "Ate mais!",
+        "Até mais!",
         "Obrigado!",
         "Ok",
-        "Tchau, obrigado pela pre-consulta",
-        "Execelente dia",
+        "Tchau, obrigado pela pré-consulta",
+        "Excelente dia",
         "Tchau tchau",
         "Adeus",
         "Agradecido",
-        "Ate logo !"
+        "Até logo !"
       ],
       "responses": [
-        "Ate mais!",
-        "Foi um prazer atende-lo!",
+        "Até mais!",
+        "Foi um prazer atendê-lo!",
         "Tchau!",
         "Estamos a disposição sempre que precisar "
       ],
